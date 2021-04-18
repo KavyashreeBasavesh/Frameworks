@@ -18,7 +18,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class Sample {
 	public static void main(String[] args) throws IOException {
 		// created a File
-		
+		 System.out.println("Selenium project");
 		File f= new File("C:\\Users\\User\\eclipse-workspace\\Frameworks\\excel\\Book1.xlsx");
 		// Fetching the Small object of the file
 		FileInputStream fin= new FileInputStream(f);
