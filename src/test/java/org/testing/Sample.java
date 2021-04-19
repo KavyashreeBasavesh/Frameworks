@@ -30,6 +30,7 @@ public class Sample {
 Sheet sh= b.getSheet("Sheet1");
 // to fetch a row
  Row r= sh.getRow(2);
+ System.out.println(r);
  
  // To fetch a Cell(Column)
  
